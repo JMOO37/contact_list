@@ -1,15 +1,16 @@
-
+import React from 'react';
+import ContactList from './components/ContactList';
 import './App.css'
 
-function App(){
+export default function App() {
+  
   return (
-    <div>
-      
-    </div>
+    <>
+      <ContactList />
+    </>
   );
-
 };
 
-  
 
-export default App
+
+
